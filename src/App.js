@@ -11,10 +11,10 @@ import Profile from './pages/profile/Profile';
 
 function App() {
   return (
-    <div className="App bg-[#1a1a1a] w-full h-screen">
+    <div className="App bg- w-full h-screen">
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<Home />} /> 
         <Route path='/markets' element={<MarketOverview />} />
         <Route path='/subscription' element={<Subscription />} />
         <Route path='/wallet' element={<Wallet />} />
